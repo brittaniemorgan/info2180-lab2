@@ -1,0 +1,89 @@
+body{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+header{
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    grid-column: span 3;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h3{
+    font-family:  Georgia,'Times New Roman', Times, serif;
+}
+
+#selfPic{
+    border-radius: 135px;
+    width: 250px;
+}
+
+.blogTitle{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.date_author{
+    color: #718096;
+}
+
+#pic1{
+    width: 500px;
+    float: left;
+    padding-right: 20px;
+}
+
+#pic2{
+    width: 500;
+    float: right;
+    padding-left: 20px;
+}
+
+
+aside{
+    padding: 40px;
+}
+
+#aboutSection{
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+#aboutTitle{
+    color: #000000;
+}
+
+#archives{
+    color:#48BB78;
+}
+
+#socials{
+    color:#48BB78;
+}
+
+a{
+    color: #4299E1;
+    text-decoration: none;
+}
+
+footer{
+    grid-column: span 3;
+    background-color: #2C5282;
+    color: #FFFFFF;
+}
